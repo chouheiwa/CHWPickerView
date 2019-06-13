@@ -1,0 +1,16 @@
+PODS:
+  - CHWPickerView (0.1.0)
+
+DEPENDENCIES:
+  - CHWPickerView (from `../`)
+
+EXTERNAL SOURCES:
+  CHWPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHWPickerView: 9aff21df0b4287fb5c531314b553b168dfb0bf34
+
+PODFILE CHECKSUM: 470f519f9d1b3fd46a4792ef8a01aedebc33b7ee
+
+COCOAPODS: 1.7.1
