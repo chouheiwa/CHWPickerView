@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'CHWPickerView_Example' do
+  pod 'CHWPickerView', :path => '../'
+
+
+end
