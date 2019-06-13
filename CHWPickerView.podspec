@@ -9,10 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CHWPickerView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CHWPickerView.'
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.summary          = 'An easy and useful Picker View'
   s.swift_version = '5'
   s.homepage         = 'https://github.com/chouheiwa/CHWPickerView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
