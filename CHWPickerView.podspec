@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHWPickerView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'An easy and useful Picker View'
   s.swift_version = '5'
   s.homepage         = 'https://github.com/chouheiwa/CHWPickerView'

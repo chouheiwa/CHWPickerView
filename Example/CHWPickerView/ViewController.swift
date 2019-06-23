@@ -7,7 +7,7 @@
 //
 
 import UIKit
-@testable import CHWPickerView
+import CHWPickerView
 
 
 class ViewController: UIViewController {
@@ -24,6 +24,16 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func showDateAction(_ sender: Any) {
+        let settings = CHWDatePickerViewSettings()
+
+        settings.locale = .init(identifier: "zh_CN")
+        settings.maxShowDate = Date()
+
+        CHWDatePickerView.show(in: self.view, settings: settings) {
+            print($0)
+        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
