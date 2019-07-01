@@ -88,6 +88,7 @@ extension CHWPickerView {
     private func change(dataArray: [DataType], selectedIndex: Int) {
 
         delegate.dataArray = dataArray
+        delegate.selectedIndex = selectedIndex
 
         pickerView.reloadAllComponents()
 
